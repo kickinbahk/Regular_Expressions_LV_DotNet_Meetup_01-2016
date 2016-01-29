@@ -24,9 +24,9 @@
 
 ##Excluding Text
 
-`gandalf_quote2.scan(/\b(?!And)[A-Z][a-z]+/)`
+`gandalf_quote2.match(/\b(?!And)[A-Z][a-z]+/)`
 
-`gandalf_quote2.scan(/\b(?!And|Yes|Mr)[A-Z][a-z]+/)`
+`gandalf_quote2.match(/\b(?!And|Yes|Mr)[A-Z][a-z]+/)`
 
 ------------------------------
 
